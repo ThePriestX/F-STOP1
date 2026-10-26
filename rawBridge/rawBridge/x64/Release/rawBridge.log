@@ -1,0 +1,34 @@
+﻿  pch.cpp
+  dllmain.cpp
+  RawBridge.cpp
+D:\2025 VB\LibRaw-0.22.0\libraw\libraw_datastream.h(259,18): warning C4251: 'LibRaw_bigfile_buffered_datastream::wfilename': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'LibRaw_bigfile_buffered_datastream'
+  (compiling source file '/RawBridge.cpp')
+      d:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(522,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\2025 VB\LibRaw-0.22.0\libraw\libraw_datastream.h(261,17): warning C4251: 'LibRaw_bigfile_buffered_datastream::filename': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'LibRaw_bigfile_buffered_datastream'
+  (compiling source file '/RawBridge.cpp')
+      d:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(522,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\2025 VB\LibRaw-0.22.0\libraw\libraw_datastream.h(262,14): warning C4251: 'LibRaw_bigfile_buffered_datastream::iobuffers': 'buffer_t' needs to have dll-interface to be used by clients of 'LibRaw_bigfile_buffered_datastream'
+  (compiling source file '/RawBridge.cpp')
+      D:\2025 VB\LibRaw-0.22.0\libraw\libraw_datastream.h(177,7):
+      see declaration of 'buffer_t'
+  
+D:\2025 VB\LibRaw-0.22.0\libraw\libraw_datastream.h(324,15): warning C4251: 'LibRaw_bigfile_datastream::filename': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'LibRaw_bigfile_datastream'
+  (compiling source file '/RawBridge.cpp')
+      d:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(522,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\2025 VB\LibRaw-0.22.0\libraw\libraw_datastream.h(327,16): warning C4251: 'LibRaw_bigfile_datastream::wfilename': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'LibRaw_bigfile_datastream'
+  (compiling source file '/RawBridge.cpp')
+      d:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(522,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+     Creating library D:\2025 VB\F-Stop1\RawBridge\rawBridge\x64\Release\rawBridge.lib and object D:\2025 VB\F-Stop1\RawBridge\rawBridge\x64\Release\rawBridge.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  rawBridge.vcxproj -> D:\2025 VB\F-Stop1\RawBridge\rawBridge\x64\Release\rawBridge.dll
